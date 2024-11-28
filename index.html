@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <img src="https://caradebarro.com.br/wp-content/uploads/2023/01/tabela-de-calculo-de-imc-ciclismo-emagrecimento.jpg"
+        alt="">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <form onsubmit="return calcular(event)">
+        <label>Digite seu peso:</label> <br/>
+        <input id="peso" type="text" name="peso" placeholder="Exemplo 65"/> <br/> <br/>
+
+        <label>Digite sua altura:</label> <br/>
+        <input id="altura" type="text" name="altura" placeholder="Exemplo 1.70"/> <br/><br/>
+
+        <input type="submit" value="Calcular IMC">
+
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
